@@ -1,0 +1,65 @@
+body {
+  background-color: $black;
+  color: $white;
+}
+
+h1, h2, h3 {
+  font-family: $header-font;
+  text-shadow: 6px 6px 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+p, a {
+  font-family: $body-font;
+  text-shadow: 6px 6px 10px rgba(0,0,0,0.3);
+}
+
+p {
+  line-height: 1.75;
+}
+
+a {
+  color: $white;
+  font-weight: bold;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}

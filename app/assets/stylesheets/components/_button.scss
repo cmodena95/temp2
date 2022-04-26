@@ -1,0 +1,40 @@
+.btn-black, .btn-white {
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.btn-black {
+  color: $white;
+  border: 2px solid $white;
+  background-color: transparent;
+  padding: 8px 32px;
+  transition: ease 0.4s all;
+  text-shadow: none;
+
+  &:hover {
+    background-color: $white;
+    color: black;
+  }
+}
+
+.btn-white {
+  background-color: $white !important;
+  color: $black !important;
+  padding: 10px 34px;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.btn-black-solid {
+  background-color: $black;
+  color: $white;
+  padding: 10px 34px;
+  text-decoration: none;
+  transition: 0.5s all ease;
+  border-radius: 2px;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
