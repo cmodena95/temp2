@@ -21,7 +21,7 @@
         <div class="dashboard-btns">
           <%= link_to "View", property_path(property), class: "btn-black-solid" %>
           <%= link_to "Edit", edit_property_path(property), class: "btn-black-solid my-2 px-12" %>
-          <%= button_to "Delete", property_path(property), method: :delete, class: "btn-black-solid" %>
+          <%= button_to "Delete", property_path(property), method: :delete, class: "btn-black-solid", data: "Are you sure you would like to delete this property?" %>
         </div>
 
         <div class="overlay">

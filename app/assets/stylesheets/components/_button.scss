@@ -6,15 +6,11 @@
 .btn-black {
   color: $white;
   border: 2px solid $white;
+  text-decoration: none;
   background-color: transparent;
   padding: 8px 32px;
   transition: ease 0.4s all;
   text-shadow: none;
-
-  &:hover {
-    background-color: $white;
-    color: black;
-  }
 }
 
 .btn-white {
