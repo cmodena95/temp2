@@ -4,11 +4,7 @@ class PagesController < ApplicationController
   
   def home
     @properties = policy_scope(Property.all)
-
-    @header = Info.find(1)
-    @subheader = Info.find(2)
-    @title = Info.find(3)
-    @desc = Info.find(4)
+    @info = Info.find(1)
   end
 
   def dashboard

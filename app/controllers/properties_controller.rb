@@ -1,5 +1,5 @@
 class PropertiesController < ApplicationController
-  before_action :set_property, except: [:new, :create]
+  before_action :set_property, except: [:new, :create, :update]
   before_action :check_user, only: [:edit, :new]
 
   def new
@@ -26,7 +26,6 @@ class PropertiesController < ApplicationController
   end
 
   def update
-    @property = Property.find(params[:id])
     authorize @property
     if @property.update(property_params)
       redirect_to property_path(@property)

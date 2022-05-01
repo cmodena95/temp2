@@ -15,6 +15,18 @@
   overflow: scroll;
 }
 
+.edit-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 1.5rem;
+  opacity: 0.6;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 
 // mobile view
 @media screen and (max-width: 400px) {
