@@ -48,3 +48,44 @@ property2.main_photo.attach(io: house2, filename: 'house2.png', content_type: 'i
 property2.photos.attach(io: bathroom2, filename: 'bathroom2.png', content_type: 'image/png')
 property2.photos.attach(io: kitchen2, filename: 'kitchen2.png', content_type: 'image/png')
 property2.photos.attach(io: lounge2, filename: 'lounge2.png', content_type: 'image/png')
+
+
+# Home page info
+Info.create(
+  title: "Banner header",
+  body: "Placeholder"
+)
+
+Info.create(
+  title: "Banner subheader",
+  body: "Placeholder subheader goes here"
+)
+
+Info.create(
+  title: "Home page description title",
+  body: "Company information"
+)
+
+Info.create(
+  title: "Home page description",
+  body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+)
+
+
+# Footer info
+Info.create(
+  title: "Phone number",
+  body: "+1 123 456 789"
+)
+
+Info.create(
+  title: "Email address",
+  body: "info@email.com"
+)
+
+Info.create(
+  title: "Location",
+  body: "Florida, USA"
+)
