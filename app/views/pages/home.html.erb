@@ -12,7 +12,10 @@
             </svg>
 
             <div class="edit-box">
-              <%# <%= render 'edit_form', item: @header %>
+              <%= simple_form_for @info do |f| %>
+                <%= f.input :header %>
+                <%= f.submit class: "btn-black" %>
+              <% end %>
             </div>
             
           <% end %>

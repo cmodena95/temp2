@@ -1,6 +1,6 @@
 class InfoPolicy < ApplicationPolicy
   class Scope < Scope
-    scope.all
+    # scope.all
   end
 
   def edit?

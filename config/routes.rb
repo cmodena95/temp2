@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get '/dashboard', to: "pages#dashboard"
   resources :properties
+
+  resources :infos, only: [:update]
 end
