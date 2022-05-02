@@ -30,7 +30,6 @@ export default class extends Controller {
   }
 
   close(event) {
-    event.currentTarget.classList.add("d-none")
     if (event.currentTarget.id == "close-header") {
       this.editHeaderBoxTarget.classList.add("d-none")
       this.headerTarget.classList.remove("d-none")
