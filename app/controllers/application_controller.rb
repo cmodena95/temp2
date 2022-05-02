@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
   include Pundit
 
-  @info = Info.find(1)
+  $info = Info.find(1)
 end
