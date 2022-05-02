@@ -9,8 +9,14 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "controllers"
 
+import "trix"
+import "@rails/actiontext"
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
 import "bootstrap"
+
+require("trix")
+require("@rails/actiontext")

@@ -41,6 +41,18 @@
   }
 }
 
+.info_phone > input, .info_email > input, .info_location > input {
+  background-color: rgba(255,255,255,0.6);
+}
+
+.info_phone, .info_email, .info_location {
+  margin-bottom: 0 !important;
+}
+
+#close-email {
+  margin-bottom: 0 !important;
+}
+
 
 // mobile view
 @media screen and (max-width: 400px) {

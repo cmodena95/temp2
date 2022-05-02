@@ -4,9 +4,8 @@ class CreateInfos < ActiveRecord::Migration[6.1]
       t.string :header
       t.string :subheader
       t.string :title
-      t.text :description
-      t.string :phone
       t.string :email
+      t.string :phone
       t.string :location
 
       t.timestamps

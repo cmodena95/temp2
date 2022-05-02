@@ -1,3 +1,4 @@
 class Info < ApplicationRecord
-  validates :header, :subheader, :title, :description, :phone, :email, :location, presence: true
+  has_rich_text :description
+  validates :header, :subheader, :title, :phone, :email, :location, presence: true
 end
